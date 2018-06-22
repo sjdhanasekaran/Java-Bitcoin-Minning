@@ -3,8 +3,8 @@ import java.util.List;
 
 public class Block {
 
-	public String currentHash;
-	public String previousHash;
+	String currentHash;
+	String previousHash;
 	private List<Transaction> transactions; // our data will be a simple message.
 	private long timeStamp; // as number of milliseconds since 1/1/1970.
 	private int nonce;
